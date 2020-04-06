@@ -7,7 +7,6 @@
 |name|integer|null: false, unique: true|
 |password|string|null: false|
 |email|text|null: false, unique: true|
-|group_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :posts
@@ -34,7 +33,6 @@
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
-|user_id|integer|null: false, foreign_key: true|
 
 ### Association
 - has_many :posts
